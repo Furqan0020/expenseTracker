@@ -1,0 +1,169 @@
+/* 🌐 Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+  font-family: "Poppins", "Segoe UI", Tahoma, sans-serif;
+  color: #2c3e50;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* 🏷️ Header */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 30px;
+  letter-spacing: -0.5px;
+}
+
+/* 📋 Form */
+.form-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.form-card:hover {
+  transform: translateY(-2px);
+}
+
+.form-card h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #2d3748;
+}
+
+.form-card label {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.form-card input {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  width: 220px;
+  transition: border 0.3s ease;
+}
+
+.form-card input:focus {
+  outline: none;
+  border: 1px solid #4a90e2;
+  box-shadow: 0 0 4px rgba(74, 144, 226, 0.4);
+}
+
+/* 🎨 Buttons */
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button[type="submit"] {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+  color: white;
+}
+
+button.delete {
+  background: linear-gradient(135deg, #d1c1c1, #e8ece9);
+  color: white;
+}
+
+/* 📑 Expense List */
+.expense-list {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.expense-list h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #2d3748;
+}
+
+.expense-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9fafb;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.expense-item:hover {
+  background: #edf2f7;
+  transform: scale(1.02);
+}
+
+/* 📊 Summary */
+.summary {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.summary h2 {
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  color: #2d3748;
+}
+
+.summary p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.summary p:first-child {
+  color: #e67e22; /* Total Spent */
+}
+
+.summary p:last-child {
+  color: #27ae60; /* Balance */
+}
+.progress-container {
+  width: 100%;
+  height: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 10%;
+  background: linear-gradient(to right, #ff4d4d, #ffcc00, #33cc33);
+  transition: width 0.5s ease-in-out;
+}
