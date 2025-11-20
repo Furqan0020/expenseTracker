@@ -1,16 +1,122 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application to track and manage your daily expenses efficiently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✨ Add, edit, and delete expenses
+- 📊 View expense statistics and summaries
+- 🎯 Categorize expenses
+- 💾 Persistent data storage
+- 🎨 Clean and user-friendly interface
+- ⚡ Fast and responsive UI with Vite
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework:** React.js
+- **Build Tool:** Vite
+- **Styling:** CSS
+- **Package Manager:** npm/yarn
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/expenseTracker.git
+cd expenseTracker
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+### Development
+
+Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+The application will be available at `http://localhost:5173` (default Vite port)
+
+### Build
+
+Build for production:
+```bash
+npm run build
+# or
+yarn build
+```
+
+### Preview
+
+Preview production build locally:
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+## Project Structure
+
+```
+expenseTracker/
+├── src/
+│   ├── App.jsx          # Main App component
+│   ├── App.css          # App styles
+│   ├── main.jsx         # Entry point
+│   ├── index.css        # Global styles
+│   └── assets/          # Static assets
+├── public/              # Public assets
+├── package.json         # Project dependencies
+├── vite.config.js       # Vite configuration
+└── README.md            # This file
+```
+
+## Usage
+
+1. Open the application in your browser
+2. Add a new expense by entering the amount, category, and description
+3. View all your expenses in the list
+4. Edit or delete expenses as needed
+5. Check statistics and summaries of your spending
+
+## Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint (if configured)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Author
+
+**Your Name**
+- GitHub: [@yourusername](https://github.com/yourusername)
+
+## Support
+
+If you encounter any issues or have suggestions, please open an issue on GitHub.
+
+---
+
+**Happy Tracking! 💰**
