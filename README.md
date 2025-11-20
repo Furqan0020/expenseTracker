@@ -104,18 +104,6 @@ expenseTracker/
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is open source and available under the MIT License.
-
-## Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-
-## Support
-
-If you encounter any issues or have suggestions, please open an issue on GitHub.
 
 ---
 
